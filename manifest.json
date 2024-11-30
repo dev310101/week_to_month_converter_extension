@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Week to Month Converter",
+  "version": "1.0",
+  "description": "Converts week number and year to month and month number based on input.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{7e772179-19c6-40bf-96dc-8a02e3fcc85c}"
+    }
+  }
+}
